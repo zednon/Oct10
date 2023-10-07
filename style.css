@@ -1,0 +1,54 @@
+header {
+    background-color: aquamarine;
+height: auto;
+padding: 20px 10px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 30px;
+}
+
+
+.main {
+    background-color: cadetblue;
+    height: auto;
+}
+
+footer {
+    background-color: plum;
+    height: 300px;
+}
+
+.main {
+    display:grid;
+    grid-template-columns: 1fr 2fr 2fr;
+}
+
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navTopLi {
+display: inline-block;
+padding: 10px;
+}
+
+.navTop {
+    width: 50%;
+float: right;    
+    text-align: right;
+}
+
+.logo {
+
+    width: 2%;
+    height: auto;
+}
+
+.navTopLi a {
+    text-decoration: none;
+    color:rgb(192, 145, 192);
+}
